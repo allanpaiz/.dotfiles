@@ -9,8 +9,6 @@ Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
 call plug#end()
 
-
-
 filetype on
 filetype plugin on
 filetype indent on
