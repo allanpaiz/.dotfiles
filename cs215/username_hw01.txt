@@ -1,3 +1,21 @@
+- GitHub Repo:
+
+https://github.com/allanpaiz/.dotfiles
+
+
+- Summary:
+
+I first followed the video tutorial when it came out so that I can get familiar with the ssh key portion of the assignment. I've had a GitHub for a while for personal side projects. But to be honest I've never used it properly or as intended. I've been able to commit files to other repositories through VSCode and manually.
+
+So now that I have a basic understanding of the process of using the terminal to use GitHub it's a good feeling. I didn't have any issues setting up the repository or ssh keys and the commit of my lab files. But going through this assignment, and I'm not exactly sure why I was experiencing issues when attempting to push the files.
+
+The error I got looked like `! [rejected]         master -> master (non-fast-forward)`. So I google it and found the found a highly voted answer on stack overflow (source 2) the full syntax commands helped. I don't exactly understand what 'rebase' means but hey it worked. 
+
+After that issue was complete I took the time to fix some typo issues in the `README.md` file, and now I will push this last change of this .txt file.
+
+
+- Commands:
+
 vim username_hw01.txt
 vim .dotfiles
 ls -a
@@ -16,6 +34,8 @@ git push -u origin main
 git pull --rebase origin main	[2]
 git push origin main			[2]
 
-sources:
+
+- Sources:
+
 [1] https://www.freecodecamp.org/news/the-linux-cp-command-how-to-copy-files-in-linux/
 [2] https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
