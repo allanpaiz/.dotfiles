@@ -1,0 +1,21 @@
+vim username_hw01.txt
+vim .dotfiles
+ls -a
+cd .dotfiles
+pwd
+vim README.md
+cat README.md
+cd ..
+cp .vimrc .dotfiles				[1]
+git init
+git add --all
+git commit -m "INIT commit"
+git branch -M main
+git remote add origin git@github.com:allanpaiz/.dotfiles
+git push -u origin main
+git pull --rebase origin main	[2]
+git push origin main			[2]
+
+sources:
+[1] https://www.freecodecamp.org/news/the-linux-cp-command-how-to-copy-files-in-linux/
+[2] https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote
